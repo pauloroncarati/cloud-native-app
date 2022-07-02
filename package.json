@@ -4,7 +4,8 @@
   "description": "Example of application with best practices of cloud native and 12 factors-app.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,18 @@
   "bugs": {
     "url": "https://github.com/pauloroncarati/cloud-native-app/issues"
   },
-  "homepage": "https://github.com/pauloroncarati/cloud-native-app#readme"
+  "homepage": "https://github.com/pauloroncarati/cloud-native-app#readme",
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.3",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.1",
+    "husky": "^8.0.0",
+    "prettier": "2.7.1",
+    "prettier-plugin-organize-imports": "^3.0.0"
+  }
 }
